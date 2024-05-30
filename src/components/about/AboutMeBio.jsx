@@ -1,4 +1,4 @@
-import profileImage from '../../images/profile.jpeg';
+import profileImage from '../../images/profile.png';
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 
@@ -12,20 +12,16 @@ const AboutMeBio = () => {
 			</div>
 
 			<div className="font-general-regular w-full sm:w-3/4 text-left">
-				<p
-					className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-				>
-					Passionate and seasoned Mobile Developer with over 8 years of experience in IT Industry.<br/>I have strong background in Mobile App Development and deep understanding of Android, iOS, React-Native, Flutter.
+				<p className="mb-4 text-ternary-dark dark:text-ternary-light text-xl" style={{ fontStyle: "italic" }}>
+					"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."
 				</p>
 				<p
 					className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
 				>
-					I specialize in building apps using the latest technologies and best practices.
-				</p>
-				<p
-					className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-				>
-					Dedicated to delivering high-quality solutions that meet client requirements and enhance the user experience.
+					Seasoned mobile engineer with over 8 years of experience in developing and architecting iOS and Android applications. 
+					Skilled in both native and cross-platform development, with a strong focus on performance optimization and user experience.<br/>
+					Proficient in leading teams and collaborating with designers and product managers to deliver high-quality mobile solutions.<br/>
+					Passionate about staying up-to-date with the latest mobile technologies and best practices.
 				</p>
 			</div>
 		</div>
