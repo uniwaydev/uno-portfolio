@@ -12,14 +12,21 @@ const AboutMeBio = () => {
 			</div>
 
 			<div className="font-general-regular w-full sm:w-3/4 text-left">
-				{aboutMe.map((bio) => (
-					<p
-						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-						key={bio.id}
-					>
-						{bio.bio}
-					</p>
-				))}
+				<p
+					className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+				>
+					Passionate and seasoned Mobile Developer with over 8 years of experience in IT Industry.<br/>I have strong background in Mobile App Development and deep understanding of Android, iOS, React-Native, Flutter.
+				</p>
+				<p
+					className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+				>
+					I specialize in building apps using the latest technologies and best practices.
+				</p>
+				<p
+					className="mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+				>
+					Dedicated to delivering high-quality solutions that meet client requirements and enhance the user experience.
+				</p>
 			</div>
 		</div>
 	);

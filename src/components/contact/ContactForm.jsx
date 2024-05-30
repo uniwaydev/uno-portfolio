@@ -8,6 +8,7 @@ const ContactForm = () => {
 				<form
 					onSubmit={(e) => {
 						e.preventDefault();
+						console.log("UNO");
 					}}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
