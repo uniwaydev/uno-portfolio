@@ -22,7 +22,7 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://stoman.me"
+											href="https://uno-iwayuki.vercel.app"
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'

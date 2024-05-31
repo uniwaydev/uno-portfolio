@@ -11,7 +11,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://uno-iwayuki.vercel.app/',
 	},
 	{
 		id: 2,
