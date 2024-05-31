@@ -11,7 +11,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://uno-iwayuki.vercel.app/',
+		url: 'https://uno-fun.vercel.app/',
 	},
 	{
 		id: 2,
