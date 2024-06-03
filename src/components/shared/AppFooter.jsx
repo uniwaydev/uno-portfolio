@@ -4,6 +4,8 @@ import {
 	FiLinkedin,
 	FiGlobe,
 	FiYoutube,
+	FiSend,
+	FiMail,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -18,6 +20,11 @@ const socialLinks = [
 		icon: <FiGithub />,
 		url: 'https://github.com/uniwaydev',
 	},
+	{
+		id: 3,
+		icon: <FiSend />,
+		url: 'https://t.me/uniway911',
+	}
 ];
 
 const AppFooter = () => {
