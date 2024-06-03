@@ -1,4 +1,4 @@
-import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import { FiPhone, FiMapPin, FiMail, FiInfo } from 'react-icons/fi';
 
 const contacts = [
 	{
@@ -8,8 +8,13 @@ const contacts = [
 	},
 	{
 		id: 2,
-		name: 'uno.iwayuki.0911@outlook.com',
+		name: 'uniway.leader@gmail.com',
 		icon: <FiMail />,
+	},
+	{
+		id: 3,
+		name: 'uno.iwayuki.0911@outlook.com',
+		icon: <FiInfo />,
 	},
 	// {
 	// 	id: 3,
