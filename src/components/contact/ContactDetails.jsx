@@ -3,7 +3,7 @@ import { FiPhone, FiMapPin, FiMail, FiInfo } from 'react-icons/fi';
 const contacts = [
 	{
 		id: 1,
-		name: 'Katano, Osaka, Japan',
+		name: '44-2 Asahioka Takamiya, Neyagawa, Osaka, Japan',
 		icon: <FiMapPin />,
 	},
 	{
